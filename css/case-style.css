@@ -1,0 +1,417 @@
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  -webkit-clip-path: inset(100%);
+
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "FS Elliot Pro", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.page-cases {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.card {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .card {
+    margin: 0;
+    padding: 30px;
+    border-radius: 12px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-box-shadow: 0px 5px 15px 4px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 5px 15px 4px rgba(0, 0, 0, 0.12);
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card__mvideo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 706px;
+    height: 520px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-row__2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 708px;
+    /* background-color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .card__nikon {
+    width: 320px;
+    margin-right: 30px;
+    position: relative;
+    padding-bottom: 140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card__royal-canin {
+    width: 360px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1150px) {
+  .card__mvideo {
+    width: 1050px;
+    height: 410px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .card-row__2 {
+    width: 1050px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .card__nikon {
+    width: 480px;
+    height: 345px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1150px) {
+  .card__royal-canin {
+    width: 545px;
+    height: 345px;
+  }
+}
+
+
+.mvideo__logo {
+  width: 195px;
+  height: 79px;
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22px;
+}
+
+.nikon__logo {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 22px;
+}
+
+.royal-canin__logo {
+  display: block;
+  width: 160px;
+  height: 70px;
+  margin-bottom: 22px;
+}
+
+
+@media (min-width: 768px) {
+  .mvideo__logo {
+    position: absolute;
+    top: 0px;
+    left: 485px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .mvideo__logo {
+    position: absolute;
+    width: 289px;
+    height: 116px;
+    top: 15px;
+    left: 683px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .nikon__logo {
+    position: absolute;
+    left: 360px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .royal-canin__logo {
+    position: absolute;
+    left: 319px;
+  }
+}
+
+.mvideo__title {
+  font-size: 18px;
+  line-height: 24px;
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .mvideo__title {
+    font-size: 24px;
+    line-height: 30px;
+    width: 425px;
+    margin-bottom: 18px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .nikon__title {
+    width: 310px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .nikon__column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .royal-canin__title {
+    display: inline-block;
+    height: 50px;
+  }
+}
+
+.mvideo__description {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .mvideo__description {
+    width: 445px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .mvideo__description {
+    width: 510px;
+  }
+}
+
+.mvideo__statistics {
+  padding: 0;
+  margin: 0;
+  padding-left: 26px;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .mvideo__statistics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 500px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .mvideo__statistics {
+    padding: 0;
+    margin: 0;
+    width: 908px;
+  }
+}
+
+.mvideo__statistics-item {
+  width: 206px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 18px;
+  margin-bottom: 52px;
+}
+
+.mvideo__statistics-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .mvideo__statistics-item {
+    margin-bottom: 46px;
+  }
+}
+
+.mvideo__statistics-percent {
+  font-size: 42px;
+  font-weight: bold;
+  margin-right: 12px;
+  margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .nikon__result,
+  .rc__result {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+  }
+}
+
+@media (min-width: 1150px) {
+  .rc__result  {
+    margin-bottom: 0;
+  }
+}
+
+
+
+@media (min-width: 1150px) {
+  .nikon__result {
+    display: block;
+    margin-bottom: 0;
+  }
+}
+.result-1,
+.result-2 {
+  margin-bottom: 10px;
+}
+
+.nikon__statistics-text,
+.rc__statistics-text {
+  display: inline-block;
+  margin: 0;
+  height: 50px;
+  line-height: 24px;
+  width: 120px;
+}
+
+@media (min-width: 1150px) {
+  .nikon__statistics-text {
+    width: 200px;
+  }
+}
+
+.rc__statistics-text-2,
+.rc__statistics-text-3 {
+  line-height: 50px;
+}
+
+@media (min-width: 1150px) {
+  .rc__statistics-text-2,
+  .rc__statistics-text-3 {
+    width: 50px;
+    padding-top: 4px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+}
+
+.nikon__statistics-percent,
+.rc__statistics-percent {
+  display: inline-block;
+  width: 120px;
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+@media (min-width: 1150px) {
+  .rc__result-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 1150px) {
+  .result-1 {
+    width: 190px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .result-2 {
+    width: 140px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .result-3 {
+    width: 140px;
+  }
+}
+
+.card__link {
+  border-radius: 8px;
+  background-color: #06ac94;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 100%;
+  height: 52px;
+  line-height: 52px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .card__link {
+    font-size: 18px;
+    line-height: 42px;
+    position: absolute;
+    width: 130px;
+    height: 42px;
+    bottom: 30px;
+    left: 30px;
+  }
+}
